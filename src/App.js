@@ -20,7 +20,14 @@ const App = () => {
         <Route path="/" element={<LandingPage />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Admin" element={<Admin />} />
-        <Route path="/aboutus" element={<Aboutus />} />  
+        <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/knowmore" element={<KnowMore />} />
+        <Route path="/form" element={<Form />} />
+        <Route path="/img" element={<Imggg />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/Signin" element={<Signin />} />
       </Routes>
       <Footer />
       </AuthProvider>
